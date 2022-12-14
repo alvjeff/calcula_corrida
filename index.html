@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
+
     <header>
 
     </header>
@@ -17,20 +18,26 @@
         
         <h1>Calule Pace e Velocidade</h1>
         
-        <label for="">Distancia:</label><br>
-        <input type="number" name="" id="" placeholder="Distancia em metros(m)">
+        <label for="distancia">Distancia:</label><br>
+        <input type="number" name="" id="dist" placeholder="Distancia em metros(m)">
         <br><br>
 
-        <label for="">Tempo:</label><br>
-        <input type="number" name="" id="" placeholder="Em minutos(min)">
+        <label for="tempo">Tempo:</label><br>
+        <input type="number" name="" id="tempo" placeholder="Em minutos(min)">
         <br><br>
 
-        <input type="button" value="Calcular">
+        <input type="button" value="Calcular" onclick="calcular()">
+
+        <p id="result">resposta aqui</p>
     </section>
 
     <footer>
 
     </footer>
 
+    <script src="/js/script.js"></script>
+    <script>
+       
+    </script>
 </body>
 </html>
